@@ -9,13 +9,28 @@
  const cover = document.querySelector('#cover');
 
  /* Song Title Array */
-const songs = ['mayi-teri-chunariya-lehray-song-chunar-arijit-singh', 'naina-dangal-arijit-singh-pritam', 'abhi-mujh-mein-kahin-sonu-nigam'];
+const songs = ['mayi-teri-chunariya-lehray-song-chunar-arijit-singh', 
+    'naina-dangal-arijit-singh-pritam', 
+    'abhi-mujh-mein-kahin-sonu-nigam',
+    'bajlo-chutir-ghonta-by-shilajit-majumdar',
+    'cactus-holud-pakhi',
+    'jaane-kaise-raqeeb-rival-in-love-rahul-khanna-tanushree-datta-kk-pritam',
+    'sei-tumi-keno-eto-ochena-hole-ayub-bachchu'
+];
 
 //Keep track of songs
-let songIndex = 0;
+let songIndex = getRandomInt(songs.length + 1);
 
 //load in first song into the player
 loadSong(songs[songIndex]);
+
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+  
+
+  
 
 //update song details
 function loadSong(song){
