@@ -19,7 +19,7 @@ const songs = ['mayi-teri-chunariya-lehray-song-chunar-arijit-singh',
 ];
 
 //Keep track of songs
-let songIndex = getRandomInt(songs.length + 1);
+let songIndex = getRandomInt(songs.length);
 
 //load in first song into the player
 loadSong(songs[songIndex]);
