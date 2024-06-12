@@ -9,13 +9,16 @@
  const cover = document.querySelector('#cover');
 
  /* Song Title Array */
-const songs = ['mayi-teri-chunariya-lehray-song-chunar-arijit-singh', 
-    'naina-dangal-arijit-singh-pritam', 
-    'abhi-mujh-mein-kahin-sonu-nigam',
-    'bajlo-chutir-ghonta-by-shilajit-majumdar',
-    'cactus-holud-pakhi',
-    'jaane-kaise-raqeeb-rival-in-love-rahul-khanna-tanushree-datta-kk-pritam',
-    'sei-tumi-keno-eto-ochena-hole-ayub-bachchu'
+const songs = ['Mayi teri chunariya lehray -Arijit singh', 
+    'Naina -Arijit Singh', 
+    'Abhi mujh mein kahin -Sonu Nigam',
+    'Bajlo chutir ghonta -Shilajit Majumdar',
+    'Holud pakhi -Cactus',
+    'Jaane kaise -KK',
+    'Sei tumi Ayub Bachchu',
+    '10 hits - B Praak',
+    'Ek Bat Batao -B. Praak',
+    'Meri Ma -Shankar Mahadevan'
 ];
 
 //Keep track of songs

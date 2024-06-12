@@ -25,6 +25,7 @@ body {
   display: flex;
   padding: 20px 30px;
   position: relative;
+  margin-top: 20px;
   margin: 50px 0;
   z-index: 99;
 }
@@ -142,3 +143,87 @@ i{
     width: 0%;
     transition: width 0.1s linear;
 }
+
+
+/* Ensure the music container scales appropriately on smaller screens */
+@media (max-width: 768px) {
+  .music-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+  }
+
+  .img-container {
+    width: 90px;
+  }
+
+  .img-container img {
+    height: 90px;
+  }
+
+  .music-info {
+    padding: 10px 10px 10px 110px;
+    left: 10px;
+    width: calc(100% - 20px);
+  }
+
+  .action-btn, .action-btn-bg {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+}
+
+/* Further adjustments for very small devices */
+@media (max-width: 480px) {
+  .music-container {
+    padding: 10px 15px;
+  }
+
+  .img-container {
+    width: 70px;
+  }
+
+  .img-container img {
+    height: 70px;
+  }
+
+  .music-info {
+    padding: 10px 10px 10px 90px;
+    left: 5px;
+    width: calc(100% - 10px);
+  }
+
+  .action-btn, .action-btn-bg {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+
+  .action-btn-bg {
+    font-size: 20px;
+  }
+}
+
+/* Ensure font sizes adjust appropriately on smaller screens */
+body {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+
+/* Adjust the layout of the progress container on smaller screens */
+@media (max-width: 480px) {
+  .progress-container {
+    height: 3px;
+  }
+}
+
