@@ -20,7 +20,9 @@ const songs = [
     'Sei tumi -Ayub Bachchu',
     '10 hits - B Praak',
     'Ek Bat Batao -B. Praak',
-    'Meri Ma -Shankar Mahadevan'
+    'Meri Ma -Shankar Mahadevan',
+    'Chunriya -Falguni Pathak',
+    'Tera Chera -Adnan Sami'
 ];
 
 // Function to get song index from URL parameter
