@@ -27,7 +27,8 @@ const songs = [
     'Mone pore ruby roy -Arijit Singh',
     'Ki Kore Bolbo Tomay - Arijit Singh and Palak',
     'Maine Dil Se Kaha -KK',
-    'Sau Dard -Sonu Nigam'
+    'Sau Dard -Sonu Nigam',
+    'Khusi ke Pal -Arijit Singh and Shirley Setia'
 ];
 
 // Function to get song index from URL parameter
