@@ -22,7 +22,12 @@ const songs = [
     'Ek Bat Batao -B. Praak',
     'Meri Ma -Shankar Mahadevan',
     'Chunriya -Falguni Pathak',
-    'Tera Chera -Adnan Sami'
+    'Tera Chera -Adnan Sami',
+    'Wada Raha - Arnab and Shreya Ghosal',
+    'Mone pore ruby roy -Arijit Singh',
+    'Ki Kore Bolbo Tomay - Arijit Singh and Palak',
+    'Maine Dil Se Kaha -KK',
+    'Sau Dard -Sonu Nigam'
 ];
 
 // Function to get song index from URL parameter
