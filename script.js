@@ -29,7 +29,10 @@ const songs = [
     'Maine Dil Se Kaha -KK',
     'Sau Dard -Sonu Nigam',
     'Khusi ke Pal -Arijit Singh and Shirley Setia',
-    'Golemale Golemale Pirit Koiro Na -Shreya Ghosal'
+    'Golemale Golemale Pirit Koiro Na -Shreya Ghosal',
+    'Shuno Na -Shan',
+    'Pehla Nasha -Udit Narayan and Sadhna Sargam',
+    'Papa Kehta Hain -Udit Narayan'
 ];
 
 // Function to get song index from URL parameter
