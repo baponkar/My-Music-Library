@@ -34,7 +34,9 @@ const songs = [
     'Pehla Nasha -Udit Narayan and Sadhna Sargam',
     'Papa Kehta Hain -Udit Narayan',
     'Behati Hawa sa tha o -Shaan and Shantunu Moitra',
-    'Khereyiat -Arijit Singh'
+    'Khereyiat -Arijit Singh',
+    'Evabeo Fire asa jay - Chandabindu',
+    'Valolage - Mohiner Ghoragulo'
 ];
 
 // Function to get song index from URL parameter
