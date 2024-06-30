@@ -37,7 +37,10 @@ const songs = [
     'Khereyiat -Arijit Singh',
     'Evabeo Fire asa jay - Chandabindu',
     'Valolage - Mohiner Ghoragulo',
-    'Chookar mere manko - Kishore Kumar'
+    'Chookar mere manko - Kishore Kumar',
+    'Likhe Jo Khat Tujhe Mohammed Rafi',
+    'Woh Lamhe Woh Baatein Atif Aslam',
+    'Bangla Adhunik Gaan Shreya Ghoshal'
 ];
 
 // Function to get song index from URL parameter
