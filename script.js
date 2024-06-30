@@ -36,7 +36,8 @@ const songs = [
     'Behati Hawa sa tha o -Shaan and Shantunu Moitra',
     'Khereyiat -Arijit Singh',
     'Evabeo Fire asa jay - Chandabindu',
-    'Valolage - Mohiner Ghoragulo'
+    'Valolage - Mohiner Ghoragulo',
+    'Chookar mere manko - Kishore Kumar'
 ];
 
 // Function to get song index from URL parameter

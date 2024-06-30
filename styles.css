@@ -87,6 +87,22 @@ h1{
   z-index: 1;
 }
 
+.volume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px; /* Adjust as needed */
+}
+
+#volumeControl {
+  -webkit-appearance: slider-vertical; /* For Chrome, Safari, and Opera */
+  writing-mode: bt-lr; /* For Firefox */
+  width: 8px; /* Width of the slider */
+  height: auto; /* Height of the slider */
+  margin-top: 10px; /* Space between label and slider */
+}
+
+
 i{
     cursor: pointer;
 }
