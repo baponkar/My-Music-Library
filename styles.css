@@ -256,3 +256,10 @@ body {
   }
 }
 
+
+.social-share-btn-container{
+  display: flex;
+  flex-wrap: row;
+  justify-content: left;
+  align-items: left;
+}
