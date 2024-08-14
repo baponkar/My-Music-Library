@@ -263,3 +263,68 @@ body {
   justify-content: left;
   align-items: left;
 }
+
+
+
+/*------------*/
+
+/* Ensure the image stays aligned to the left on smaller screens */
+@media (max-width: 768px) {
+  .music-container {
+    flex-direction: row; /* Keep the row direction */
+    align-items: flex-start; /* Align items to the top */
+  }
+
+  .img-container {
+    width: 90px;
+    margin: 0; /* Remove any margin that could cause centering */
+  }
+
+  .music-info {
+    padding: 10px 10px 10px 110px;
+    left: 10px;
+    width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .music-container {
+    flex-direction: row; /* Keep the row direction */
+    align-items: flex-start; /* Align items to the top */
+    padding: 10px 15px;
+  }
+
+  .img-container {
+    width: 70px;
+    margin: 0; /* Ensure there's no margin causing centering */
+    float: left; /* Force the image container to stay left-aligned */
+  }
+
+  .music-info {
+    padding: 10px 10px 10px 90px;
+    left: 5px;
+    width: calc(100% - 10px);
+  }
+}
+
+/* Further adjustments for very small devices */
+@media (max-width: 320px) {
+  .music-container {
+    padding: 8px 12px;
+    align-items: flex-start; /* Ensure content stays aligned to the top */
+  }
+
+  .img-container {
+    width: 60px;
+    margin: 0; /* Ensure no centering */
+    float: left; /* Force the image container to stay left-aligned */
+  }
+
+  .music-info {
+    padding: 8px 8px 8px 80px;
+    left: 5px;
+    width: calc(100% - 10px);
+  }
+}
+
+

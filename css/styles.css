@@ -187,4 +187,158 @@
     color: #999;
     font-size: 18px;
   }
+
+  /* Volume */
+  /* Ensure the input range is displayed horizontally */
+  input[type="range"] {
+    -webkit-appearance: none;  /* Hides the slider for WebKit browsers */
+    -moz-appearance: none;     /* Hides the slider for Firefox */
+    appearance: none;
+    width: 100%;  /* Makes the range input take up the full width of its container */
+    background: transparent;  /* Removes default background */
+}
+
+/* Styles for the slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+/* Styles for the slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    background: #007BFF;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -4px; /* Centers the thumb on the track */
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    background: #007BFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* Responsive Styles */
+
+/* Adjustments for devices with a max width of 768px (tablets) */
+@media (max-width: 768px) {
+  .player {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .cd {
+    width: 150px;
+    margin: 0; /* Remove auto margin to align left */
+    float: left; /* Align the CD to the left */
+  }
+
+  .dashboard {
+    padding: 12px 12px 10px;
+  }
+
+  .control .btn {
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  .control .btn-toggle-play {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  .playlist {
+    margin-top: 320px;
+    padding: 10px;
+  }
+
+  .song .thumb {
+    width: 40px;
+    height: 40px;
+  }
+
+  .song .title {
+    font-size: 16px;
+  }
+
+  .song .author {
+    font-size: 11px;
+  }
+
+  .song .option {
+    padding: 12px 6px;
+    font-size: 16px;
+  }
+}
+
+/* Adjustments for devices with a max width of 480px (mobile) */
+@media (max-width: 480px) {
+  .cd {
+    width: 120px;
+    margin: 0; /* Remove auto margin to align left */
+    float: left; /* Align the CD to the left */
+  }
+
+  .dashboard {
+    padding: 10px 10px 8px;
+  }
+
+  .control .btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .control .btn-toggle-play {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .playlist {
+    margin-top: 280px;
+    padding: 8px;
+  }
+
+  .song {
+    margin-bottom: 8px;
+    padding: 6px 12px;
+  }
+
+  .song .thumb {
+    width: 36px;
+    height: 36px;
+  }
+
+  .song .title {
+    font-size: 14px;
+  }
+
+  .song .author {
+    font-size: 10px;
+  }
+
+  .song .option {
+    padding: 10px 5px;
+    font-size: 14px;
+  }
+}
+
   
